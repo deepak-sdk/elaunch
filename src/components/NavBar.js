@@ -32,7 +32,7 @@ const NavBar = () => {
         <Left>
             <Language>EN</Language>
         </Left>
-        <Center>Middle</Center>
+        <Center>Centre</Center>
         <Right>Right</Right>
       </Wrapper>
     </Container>
