@@ -1,10 +1,10 @@
 // import { Container } from '@mui/material'
 const Container = styled.div``
 
-const Categories = () => {
+const CategoryItem = () => {
   return (
-    <Container>Categories</Container>
+    <Container>CategoryItem</Container>
   )
 }
 
-export default Categories
+export default CategoryItem
