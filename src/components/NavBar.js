@@ -1,7 +1,8 @@
 import React from "react";
-import PageviewOutlinedIcon from '@mui/icons-material/PageviewOutlined';
+// import PageviewOutlinedIcon from '@mui/icons-material/PageviewOutlined';
 import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import SearchIcon from '@mui/icons-material/Search';
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -42,7 +43,8 @@ const Center = styled.div`
   text-align: center;
 `;
 const Logo = styled.h1`
-  font-weight: bold;
+  // font-weight: bold;
+  font-size:2.6rem;
 `;
 const Right = styled.div`
   flex: 1;
@@ -65,13 +67,13 @@ const NavBar = () => {
           <Language>
             <SearchContainer>
               <Input />
-              <PageviewOutlinedIcon style={{color:"gray", fontSize:"1rem" }}/>
+              <SearchIcon style={{color:"gray", fontSize:"1rem" }}/>
             </SearchContainer>
             EN
           </Language>
         </Left>
         <Center>
-          <Logo>BIG BASKET</Logo>
+          <Logo>eLAUNCH</Logo>
         </Center>
         <Right>
           <MenuItem>REGISTER</MenuItem>

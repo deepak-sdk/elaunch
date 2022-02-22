@@ -10,6 +10,7 @@ height: 100vh;
 display: flex;
 position: relative;
 overflow: hidden;
+margin-top: 50px;
 `;
 
 const Arrow = classes.div`
@@ -55,7 +56,7 @@ height: 100%;
 const Image = classes.img`
 object-fit: cover;
 width: 80%;
-height: 85%;
+height: 100%;
 `;
 
 const InfoContainer = classes.div`
