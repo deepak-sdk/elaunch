@@ -1,15 +1,15 @@
 import React from "react";
-import PageviewOutlinedIcon from '@mui/icons-material/PageviewOutlined';
-import Badge from '@mui/material/Badge';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import PageviewOutlinedIcon from "@mui/icons-material/PageviewOutlined";
+import Badge from "@mui/material/Badge";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import styled from "styled-components";
 
 const Container = styled.div`
   height: 60px;
+  padding: 10px 20px;
 `;
 
 const Wrapper = styled.div`
-  padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +54,7 @@ const Right = styled.div`
 const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
-  margin-left:25px;
+  margin-left: 25px;
 `;
 
 const NavBar = () => {
@@ -65,7 +65,9 @@ const NavBar = () => {
           <Language>
             <SearchContainer>
               <Input />
-              <PageviewOutlinedIcon style={{color:"gray", fontSize:"1rem" }}/>
+              <PageviewOutlinedIcon
+                style={{ color: "gray", fontSize: "1rem" }}
+              />
             </SearchContainer>
             EN
           </Language>
