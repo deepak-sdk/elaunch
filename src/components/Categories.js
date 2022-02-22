@@ -1,8 +1,9 @@
 // import { Container } from '@mui/material'
 
 import styled from "styled-components";
-import { Category } from "@mui/icons-material";
+// import { Category } from "@mui/icons-material";
 import { categories } from "../data";
+import CategoryItem from "./CategoryItem";
 
 const Container = styled.div`
 display:flex;
@@ -11,14 +12,14 @@ justify-content:space-between;
 `;
 
 const Categories = () => {
-  return 
+  return (
     <Container>
       {categories.map(item=>(
-        <CategoryItem item={item}/>
+        <CategoryItem item={item} key={item.id} />
       ))
       }
-    </Container>;
-  
+    </Container>
+  )
 }
 
 export default Categories
