@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import classes from "styled-components";
-import { sliderItems } from "../components/data";
+import { sliderItems } from "../data";
 
 const Container = classes.div`
 width: 100%;
