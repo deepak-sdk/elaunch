@@ -51,7 +51,7 @@ export const sliderItems = [
     },
     {
       id:3,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      img:"https://www.freepnglogos.com/uploads/shoes-png/download-nike-shoes-transparent-png-for-designing-projects-16.png",
     },
     {
       id:4,
@@ -67,7 +67,7 @@ export const sliderItems = [
     },
     {
       id:7,
-      img:"https://4.imimg.com/data4/NV/XL/MY-12167603/ladies-shrug-500x500.jpg",
+      img:"https://i.dlpng.com/static/png/6970404_preview.png",
     },
     {
       id:8,
