@@ -1,4 +1,3 @@
-
 import React from 'react';
 import NavBar from '../components/NavBar'
 import Announcement from '../components/Announcement'
@@ -7,12 +6,12 @@ import Products from '../components/Products';
 import Slider from "./Slider";
 import NewsLetter from '../components/NewsLetter';
 import ProductList from "./ProductList";
+import Footer from '../components/Footer';
 
 
 const Home = () => {
   return (
     <div>
-
       <Announcement />
       <NavBar />
       <ProductList/>
@@ -20,6 +19,7 @@ const Home = () => {
       <Categories/>
       <Products/>
       <NewsLetter/>
+      <Footer/>
     </div>
   );
 };
