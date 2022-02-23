@@ -1,9 +1,9 @@
 import styled from "styled-components"
-import Announcement from "../components/Announcement";
-import NavBar from "../components/NavBar";
-import Products from "../components/Products";
-import Newsletter from "../components/Newsletter";
-import Footer from "../components/Footer";
+// import Announcement from "../components/Announcement";
+// import NavBar from "../components/NavBar";
+// import Products from "../components/Products";
+// import Newsletter from "../components/Newsletter";
+// import Footer from "../components/Footer";
 
 const Container=styled.div``;
 const Title=styled.h2`
@@ -19,15 +19,19 @@ margin:20px;
 const FilterText=styled.span`
 font-size:20px;
 font-weight:600;
+margin-right:20px;
 `;
-const Select=styled.select``;
+const Select=styled.select`
+padding:10px;
+margin-right:20px;
+`;
 const Option=styled.option``;
 
 const ProductList = () => {
   return (
     <Container>
-      <NavBar />
-      <Announcement />
+      {/* <NavBar />
+      <Announcement /> */}
       <Title>Clothes</Title>
       <FilterContainer>
         <Filter>
@@ -55,11 +59,16 @@ const ProductList = () => {
         </Select>
         <Filter>
           <FilterText>Sort Products: </FilterText>
+          <Select>
+              <Option selected>Newest</Option>
+              <Option>Price (asc)</Option>
+              <Option>Price (desc)</Option>
+          </Select>
         </Filter>
       </FilterContainer>
-      <Products />
-      <Newsletter />
-      <Footer />
+      {/* <Products /> */}
+      {/* <Newsletter /> */}
+      {/* <Footer /> */}
     </Container>
   );
 }
