@@ -6,7 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import styled from "styled-components";
 
 const Container = styled.div`
-  height: 60px;
+  // height: 100px;
 `;
 
 const Wrapper = styled.div`
