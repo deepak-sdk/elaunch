@@ -7,6 +7,7 @@ import Slider from "../components/Slider";
 import NewsLetter from '../components/NewsLetter';
 import ProductList from "./ProductList";
 import Footer from '../components/Footer';
+// import Register from './Register';
 
 
 const Home = () => {
@@ -14,6 +15,8 @@ const Home = () => {
     <div>
       <Announcement />
       <NavBar />
+      {/* <Register/>
+      <Login/> */}
       <ProductList/>
       <Slider />
       <Categories/>
