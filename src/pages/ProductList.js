@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Announcement from "../components/Announcement";
-import NavBar from "../components/NavBar";
-import Products from "../components/Products";
+// import Announcement from "../components/Announcement";
+// import NavBar from "../components/NavBar";
+// import Products from "../components/Products";
 import Newsletter from "../components/NewsLetter";
 import Footer from "../components/Footer";
 
@@ -34,8 +34,8 @@ const Option = styled.option`
 const ProductList = () => {
   return (
     <Container>
-      <Announcement />
-      <NavBar />
+      {/* <Announcement />
+      <NavBar /> */}
       <Title>Fashion Products</Title>
       <FilterContainer>
         <Filter>
@@ -70,7 +70,7 @@ const ProductList = () => {
           </Select>
         </Filter>
       </FilterContainer>
-      <Products />
+      {/* <Products /> */}
       <Newsletter />
       <Footer />
     </Container>
